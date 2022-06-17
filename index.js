@@ -39,7 +39,14 @@ if (require.main === module) {
   console.log("=>", isPalindrome("racecar"));
 
   console.log("Expecting: true");
-  console.log("=>", ("word")===("finalWord"))
+  console.log("=>", isPalindrome("mom"));
+
+  console.log("");
+
+  console.log("Expecting: true");
+  console.log("=>", isPalindrome("abba"));
+
+  console.log("");
 
   console.log("Expecting: false");
   console.log("=>", isPalindrome("robot"));
